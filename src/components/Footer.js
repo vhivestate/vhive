@@ -12,7 +12,7 @@ function Footer(){
         <div>
           <footer className="footer footer-center p-10">
             <div className="grid grid-flow-col gap-4">
-                <a className="link link-hover">About</a> 
+                <a className="link link-hover">Projects</a> 
                 <a className="link link-hover">Contact</a> 
                 <a className="link link-hover" ><Link to={'/services'}>Services</Link></a> 
             </div> 

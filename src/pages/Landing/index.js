@@ -22,7 +22,7 @@ function Landing(){
 
             <h2 id='start' className='landing-skills text-center pt-10 text-5xl	bg-white'>ABOUT</h2>
             <div className='bg-white'>
-            <div className='about pt-14'>
+            <div className='about pt-14 flex flex-wrap justify-center '>
             <div className="card lg:card-side w-10/12 p-5 glass">
             <figure><img src={Headshot} alt="Album"/></figure>
             <div className="card-body justify-around ">
@@ -31,7 +31,7 @@ function Landing(){
                 <p className='min-w-fit'>Full-stack web developer based out of Salt Lake City, Utah. Graduated from The University of Utah. Here to provide everything you will need for your ideal website. </p>
                 </div>
                 <div className='flex flex-wrap p-3 justify-center'>
-                <button className="about-btn btn btn-active  text-white"><Link to={'/projects'}>View Portfolio</Link></button>  
+                <button className="about-btn btn btn-active btn-wide text-white"><Link to={'/projects'}>View Work</Link></button>  
                     </div>
                 </div>
             </div>
@@ -39,7 +39,7 @@ function Landing(){
 
 
                {/* services */}
-
+               <h2 className='landing-skills text-center pt-10 text-5xl	'>SERVICES</h2>
             <div className='services flex flex-wrap justify-center pt-9'>
                 <div className="card w-96 bg-neutral ">
                     <div className="card-body items-center text-center">

@@ -17,12 +17,8 @@ function Nav(props){
                     <li><a><Link to={'/services'}>Services</Link></a></li>
                 </ul>
             </div>
-            </div>
-        <div className="navbar-center">
             <a className="btn btn-ghost normal-case text-xl"><Link to={'/'}>vhive</Link></a>
-        </div>
-        <div className="navbar-end">
-        </div>
+            </div>
         </nav>
     )
 }
