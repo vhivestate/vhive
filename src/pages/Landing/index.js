@@ -13,8 +13,8 @@ function Landing(){
                     <div className="max-w-md">
                         <h1 className="mb-5 text-5xl font-bold">WEB DEVELOPER</h1>
                         <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                        <div class="group">
-                        <button className='hover:animate-bounce btn-lg'>
+                        <div className="group pt-40 hover:animate-bounce">
+                        <button>
                         <a href='#about'><ArrowDownCircle className='arrow'></ArrowDownCircle></a>
                         </button>
                             <p className="invisible group-hover:visible">Scroll Down</p>
