@@ -13,14 +13,14 @@ function Landing(){
                     <div className="max-w-md">
                         <h1 className="mb-5 text-5xl font-bold">WEB DEVELOPER</h1>
                         <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                        <button className=' animate-bounce'><a href='#about'><ArrowDownCircle></ArrowDownCircle></a></button>
+                        <button className='hover:animate-bounce btn-lg'><a href='#about'><ArrowDownCircle className='arrow'></ArrowDownCircle></a></button>
                     </div>
                 </div>
             </div>
 
     {/* ABOUT */}
 
-            <h2 id='start' className='landing-skills text-center pt-10 text-5xl	bg-white'>ABOUT</h2>
+            <h2 id='about' className='landing-skills text-center pt-10 text-5xl	bg-white'>ABOUT</h2>
             <div className='bg-white'>
             <div className='about pt-14 flex flex-wrap justify-center '>
             <div className="card lg:card-side w-10/12 p-5 glass">
@@ -39,27 +39,43 @@ function Landing(){
 
 
                {/* services */}
-               <h2 className='landing-skills text-center pt-10 text-5xl	'>SERVICES</h2>
-            <div className='services flex flex-wrap justify-center pt-9'>
-                <div className="card w-96 bg-neutral ">
-                    <div className="card-body items-center text-center">
-                    <h2 className="card-title underline">WEB DEVELOPMENT</h2>
-                    <div className='frontend'>
-                        <dl>
-                            <dt>Landing Page</dt>
-                            <dt>Ecommerce Website</dt>
-                            <dt>Booking Website</dt>
-                            <dt>Management System</dt>
-                            <dt>Contact Form</dt>
-                            <dt>Portfolio</dt>
-                        </dl>
-                        </div>
-                    <div className="card-actions justify-end">
-
-                    </div>
-                </div>
-                </div>
+        <h2 className='text-center pt-10 text-5xl	'>SERVICES</h2>
+        <div className='flex flex-wrap justify-center p-8 space-x-4 '>
+            <div className="card w-96 bg-neutral ">
+            <div className="card-body items-center text-center">
+                <h2 className="card-title underline">WEB DEVELOPMENT</h2>
+            <div className='frontend'>
+                <dl>
+                    <dt>Landing Page</dt>
+                    <dt>Ecommerce Website</dt>
+                    <dt>Booking Website</dt>
+                    <dt>Management System</dt>
+                    <dt>Contact Form</dt>
+                    <dt>Portfolio</dt>
+                </dl>
             </div>
+        </div>
+    </div>
+
+    <div className="nav-a divider divider-horizontal text-xl">&</div>
+
+    <div className="card w-96 bg-neutral ">
+            <div className="card-body items-center text-center">
+                <h2 className="card-title underline">TUTORING</h2>
+            <div className='frontend'>
+                <dl>
+                    <dt>HTML/CSS</dt>
+                    <dt>JavaScript</dt>
+                    <dt>Backend</dt>
+                    <dt>Frontend</dt>
+                    <dt>Portfolio Building</dt>
+                </dl>
+            </div>
+        </div>
+    </div>
+    
+    </div>
+
 
   <div className="divider pt-9"></div> 
 
@@ -124,8 +140,16 @@ function Landing(){
     </div>
 
                 <div>
-                    <h2>Contact</h2>
-                </div>
+                <div className="card w-auto	 bg-white text-neutral-content p-14 ">
+        <div className="card-body items-center text-center text-black">
+          <h2 className="card-title ">Want to hire me for you next project? </h2>
+          <p>Please contact me via email garcia.valeria001@outlook.com</p>
+          <div className="card-actions justify-end">
+            <button className="btn btn-active  text-white"><Link to={'/contact'}>Contact</Link></button>
+          </div>
+        </div>
+      </div>
+                      </div>
           </div>
         </div>
     )

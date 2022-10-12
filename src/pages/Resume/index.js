@@ -5,7 +5,7 @@ import Badge from '../../assests/images/badge-code.png'
 
 function Resume() {
   return (
-<div className='resume-page bg-[#29243c78]'>
+<div className='resume-page bg-[#ffffff]'>
 <div className="hero h-64 bg-fixed" style={{ backgroundImage: `url("https://placeimg.com/1000/800/arch")` }}>
       <div className="hero-overlay bg-opacity-60"></div>
       <div className="hero-content text-center text-white">
