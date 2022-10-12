@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../App.css'
-
+import Headshot from '../../assests/images/headshot.png'
+import { Link } from 'react-router-dom';
 
 function Landing(){
     return(
@@ -9,11 +10,31 @@ function Landing(){
                 <div className="hero-overlay bg-opacity-60"></div>
                     <div className="hero-content text-center text-neutral-content">
                     <div className="max-w-md">
-                        <h1 className="mb-5 text-5xl font-bold">Hello there</h1>
+                        <h1 className="mb-5 text-5xl font-bold">WEB DEVELOPER</h1>
                         <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
                         <button className="btn btn-active text-white">Get Started</button>
                     </div>
                 </div>
+            </div>
+
+            <div>
+                <h2>ABOUT</h2>
+                <div className='about pt-14'>
+    <div className="card lg:card-side w-10/12 p-5 glass">
+      <figure><img src={Headshot} alt="Album"/></figure>
+      <div className="card-body justify-around ">
+        <h2 className="card-title">Valeria Garcia</h2>
+        <div className='card-text'>
+        <p className='min-w-fit'>Full-stack web developer based out of Salt Lake City, Utah. Experienced web developer, graduated from The University of Utah with Web Development Certificate. Here to provide everything you will need for your ideal website. </p>
+          </div>
+          <div className='flex flex-wrap p-3 justify-center'>
+          <button className="about-btn btn btn-active  text-white"><Link to={'/projects'}>View Portfolio</Link></button>  
+          <button className="about-btn btn btn-active  text-white "> <a href="mailto:garcia.valeria001@gmail.com"> Contact me</a>
+  </button> 
+            </div>
+          </div>
+      </div>
+    </div>
             </div>
         </div>
     )
