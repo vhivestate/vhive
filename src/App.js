@@ -1,24 +1,27 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react'
+import Landing from './pages/Landing';
+import Nav from './components/Nav';
+import Footer from './components/Footer';
+import Contact from './pages/Contact';
+import Projects from './pages/Projects';
+import Resume from './pages/Resume';
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload with github actions & installed tailwind.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Nav/>
+      <Routes>
+        <Route path="/" element={<Landing/>}/>
+        <Route path="/contact" element={<Contact/>}/>
+        <Route path="/projects" element={<Projects/>}/>
+        <Route path="/resume" element={<Resume/>}/>
+      </Routes>
+      <Footer/>
+    </Router>
   );
 }
 
