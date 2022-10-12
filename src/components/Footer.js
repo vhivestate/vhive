@@ -4,7 +4,8 @@ import { Twitter } from 'react-feather';
 import { GitHub } from 'react-feather';
 import { Instagram } from 'react-feather';
 import { Linkedin } from 'react-feather';
-import { Mail } from 'react-feather';
+import { Link } from 'react-router-dom';
+
 
 function Footer(){
     return(
@@ -13,7 +14,7 @@ function Footer(){
             <div className="grid grid-flow-col gap-4">
                 <a className="link link-hover">About</a> 
                 <a className="link link-hover">Contact</a> 
-                <a className="link link-hover">Services</a> 
+                <a className="link link-hover" ><Link to={'/services'}>Services</Link></a> 
             </div> 
             
             <div>

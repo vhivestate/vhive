@@ -26,13 +26,11 @@ function Landing(){
                             <h2 className="card-title">Valeria Garcia</h2>
 
                         <div className='card-text'>
-                            <p className='min-w-fit'>Full-stack web developer based out of Salt Lake City, Utah. Experienced web developer, graduated from The University of Utah with Web Development Certificate. Here to provide everything you will need for your ideal website. </p>
+                            <p className='min-w-fit'>Full-stack web developer based out of Salt Lake City, Utah. Graduated from The University of Utah. Here to provide everything you will need for your ideal website. </p>
                         </div>
 
                         <div className='flex flex-wrap p-3 justify-center'>
-                            <button className="about-btn btn btn-active  text-white"><Link to={'/projects'}>View Portfolio</Link></button>  
-                            <button className="about-btn btn btn-active  text-white "> <a href="mailto:garcia.valeria001@gmail.com"> Contact me</a>
-                            </button> 
+                            <button className="about-btn btn btn-active btn-wide text-white"><Link to={'/projects'}>View Work</Link></button>  
                         </div>
                         </div>
                     </div>
