@@ -51,7 +51,7 @@ export const Contact = () => {
     }
 
     return (
-        <div className="min-h-screen bg-base-50 flex flex-col items-center justify-center">
+        <div className="min-h-screen bg-[#29243c78] flex flex-col items-center justify-center">
             <h1 className="logo text-white text-center text-4xl">CONTACT</h1>
             <div className="w-full py-6 md:w-4/6 my-6">
                 <form onSubmit={handleSubmit}>
