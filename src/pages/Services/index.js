@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 function Services(){
     return(
-        <div>
+        <div className="bg-[#29243c78]">
         <div className="hero h-64 bg-fixed" style={{ backgroundImage: `url("https://placeimg.com/1000/800/arch")` }}>
             <div className="hero-overlay bg-opacity-60"></div>
             <div className="hero-content text-center text-white">
@@ -50,8 +50,8 @@ function Services(){
     </div>
 
         <div>
-            <div className="card w-auto	 bg-white text-neutral-content p-14 ">
-                    <div className="card-body items-center text-center text-black">
+            <div className="card w-auto	  text-neutral-content p-14 ">
+                    <div className="card-body items-center text-center text-white">
                     <h2 className="card-title ">Want to hire me for you next project? </h2>
                     <p>Please contact me via email garcia.valeria001@outlook.com</p>
                     <div className="card-actions justify-end">

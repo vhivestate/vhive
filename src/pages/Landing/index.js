@@ -25,8 +25,8 @@ function Landing(){
 
     {/* ABOUT */}
 
-            <h2 id='about' className='landing-skills text-center pt-10 text-5xl	bg-white'>ABOUT</h2>
-            <div className='bg-white'>
+            <h2 id='about' className='landing-skills text-center pt-10 text-5xl	bg-[#29243c78] text-white'>ABOUT</h2>
+            <div className='bg-[#29243c78] text-white'>
             <div className='about pt-14 flex flex-wrap justify-center '>
             <div className="card lg:card-side w-10/12 p-5 glass">
             <figure><img src={Headshot} alt="Album"/></figure>
@@ -145,8 +145,8 @@ function Landing(){
     </div>
 
                 <div>
-                <div className="card w-auto	 bg-white text-neutral-content p-14 ">
-                    <div className="card-body items-center text-center text-black">
+                <div className="card w-auto	 bg-[#29243c78] text-neutral-content p-14 ">
+                    <div className="card-body items-center text-center text-white">
                     <h2 className="card-title ">Want to hire me for you next project? </h2>
                     <p>Please contact me via email garcia.valeria001@outlook.com</p>
                     <div className="card-actions justify-end">
