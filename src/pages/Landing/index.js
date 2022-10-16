@@ -33,7 +33,7 @@ function Landing(){
             <div className="card-body justify-around ">
                 <h2 className="card-title">Valeria Garcia</h2>
                 <div className='card-text'>
-                <p className='min-w-fit'>Full-stack web developer based out of Salt Lake City, Utah. Graduated from The University of Utah. Here to provide everything you will need for your ideal website. </p>
+                <p className='min-w-fit'>Full-stack web developer based out of Salt Lake City, Utah. Graduated from The University of Utah. Here to provide everything you will need for your perfect website and tutoring for computer science students interested in programming. </p>
                 </div>
                 <div className='flex flex-wrap p-3 justify-center'>
                 <button className="about-btn btn btn-active btn-wide text-white"><Link to={'/projects'}>View Work</Link></button>  
@@ -146,15 +146,15 @@ function Landing(){
 
                 <div>
                 <div className="card w-auto	 bg-white text-neutral-content p-14 ">
-        <div className="card-body items-center text-center text-black">
-          <h2 className="card-title ">Want to hire me for you next project? </h2>
-          <p>Please contact me via email garcia.valeria001@outlook.com</p>
-          <div className="card-actions justify-end">
-            <button className="btn btn-active  text-white"><Link to={'/contact'}>Contact</Link></button>
-          </div>
-        </div>
-      </div>
-                      </div>
+                    <div className="card-body items-center text-center text-black">
+                    <h2 className="card-title ">Want to hire me for you next project? </h2>
+                    <p>Please contact me via email garcia.valeria001@outlook.com</p>
+                    <div className="card-actions justify-end">
+                        <button className="btn btn-active  text-white"><Link to={'/contact'}>Contact</Link></button>
+                    </div>
+                    </div>
+                </div>
+            </div>
           </div>
         </div>
     )

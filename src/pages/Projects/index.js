@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 import '../../App.css'
 import Trim from '../../assests/images/trimdown.png'
 import Rolodex from '../../assests/images/rolodex.png'
@@ -105,6 +106,16 @@ function Projects(){
     </div>
 
       </div>
+
+      <div className="card w-auto	 bg-white text-neutral-content p-14 ">
+                    <div className="card-body items-center text-center text-black">
+                    <h2 className="card-title ">Want to hire me for you next project? </h2>
+                    <p>Please contact me via email garcia.valeria001@outlook.com</p>
+                    <div className="card-actions justify-end">
+                        <button className="btn btn-active  text-white"><Link to={'/contact'}>Contact</Link></button>
+                    </div>
+                    </div>
+                </div>
 
         </div>
     )
