@@ -49,6 +49,8 @@ function Services(){
     
     </div>
 
+    <div className="divider pt-9"></div> 
+
         <div>
             <div className="card w-auto	  text-neutral-content p-14 ">
                     <div className="card-body items-center text-center text-white">

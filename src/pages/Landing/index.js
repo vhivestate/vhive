@@ -42,6 +42,7 @@ function Landing(){
             </div>
             </div>
 
+            <div className="divider pt-9"></div> 
 
                {/* services */}
         <h2 className='text-center pt-10 text-5xl	'>SERVICES</h2>
@@ -143,7 +144,7 @@ function Landing(){
     </div>
 
     </div>
-
+    <div className="divider pt-9"></div> 
                 <div>
                 <div className="card w-auto	 bg-[#29243c78] text-neutral-content p-14 ">
                     <div className="card-body items-center text-center text-white">
