@@ -13,44 +13,41 @@ function Services(){
             </div>
             </div>
 
-            <div className='services flex flex-wrap justify-center pt-9'>
-                <div className="card w-96 bg-neutral ">
-                    <div className="card-body items-center text-center">
-                    <h2 className="card-title underline">WEB DEVELOPMENT</h2>
-                    <div className='frontend'>
-                        <dl>
-                            <dt>Landing Page</dt>
-                            <dt>Ecommerce Website</dt>
-                            <dt>Booking Website</dt>
-                            <dt>Management System</dt>
-                            <dt>Contact Form</dt>
-                            <dt>Portfolio</dt>
-                        </dl>
-                        </div>
-                    <div className="card-actions justify-end">
-
-                    </div>
-                </div>
-                </div>
+        <div className='flex flex-wrap justify-center p-8 space-x-4 '>
+            <div className="card w-96 bg-neutral ">
+            <div className="card-body items-center text-center">
+                <h2 className="card-title underline">WEB DEVELOPMENT</h2>
+            <div className='frontend'>
+                <dl>
+                    <dt>Landing Page</dt>
+                    <dt>Ecommerce Website</dt>
+                    <dt>Booking Website</dt>
+                    <dt>Management System</dt>
+                    <dt>Contact Form</dt>
+                    <dt>Portfolio</dt>
+                </dl>
             </div>
+        </div>
+    </div>
 
-            <div className='services flex flex-wrap justify-center pt-9'>
-                <div className="card w-96 bg-neutral ">
-                    <div className="card-body items-center text-center">
-                    <h2 className="card-title underline">TUTORING</h2>
-                    <div className='frontend'>
-                        <dl>
-                            <dt>HTML</dt>
-                            <dt>CSS</dt>
-                            <dt>JavaScript</dt>
-                        </dl>
-                        </div>
-                    <div className="card-actions justify-end">
+    <div className="nav-a divider divider-horizontal text-xl">&</div>
 
-                    </div>
-                </div>
-                </div>
+    <div className="card w-96 bg-neutral ">
+            <div className="card-body items-center text-center">
+                <h2 className="card-title underline">TUTORING</h2>
+            <div className='frontend'>
+                <dl>
+                    <dt>HTML/CSS</dt>
+                    <dt>JavaScript</dt>
+                    <dt>Backend</dt>
+                    <dt>Frontend</dt>
+                    <dt>Portfolio Building</dt>
+                </dl>
             </div>
+        </div>
+    </div>
+    
+    </div>
 
 
             </div>
