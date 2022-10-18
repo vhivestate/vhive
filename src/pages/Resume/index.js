@@ -22,7 +22,7 @@ function Resume() {
   <div className="card-body items-center text-center">
     <h2 className='res-head card-title text-center p-4 text-3xl'>DOWNLOAD RESUME</h2>
       <div className="card-actions justify-end">
-      <button className='text-center'><a href={ResumePdf} download="resume.22.pdf"><Download></Download></a>
+      <button className='text-center '><a href={ResumePdf} download="resume.22.pdf"><Download></Download></a>
       </button>
       </div>
     </div>
@@ -39,7 +39,7 @@ function Resume() {
       <h2 className="card-title justify-center the-u">University of Utah</h2>
       <p className='text-center'>Full Stack Developer Certification</p>
       <div className="card-actions justify-center">
-      <button className="nav-a btn btn-active">
+      <button className="nav-a btn btn-primary">
                 <a href='https://www.credly.com/badges/e6040418-d001-43ac-ade5-cc7f8da2fe4d/linked_in_profile'>View Credentials</a>
             </button>
         </div>
@@ -117,7 +117,7 @@ function Resume() {
                     <h2 className="card-title ">Want to hire me for you next project? </h2>
                     <p>Please contact me via email garcia.valeria001@outlook.com</p>
                     <div className="card-actions justify-end">
-                        <button className="btn btn-active  text-white"><Link to={'/contact'}>Contact</Link></button>
+                        <button className="btn btn-primary  text-white"><Link to={'/contact'}>Contact</Link></button>
                     </div>
                     </div>
                 </div>
