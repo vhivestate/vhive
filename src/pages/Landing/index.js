@@ -11,8 +11,10 @@ function Landing(){
                 <div className="hero-overlay bg-opacity-60"></div>
                     <div className="hero-content text-center text-neutral-content">
                     <div className="max-w-md">
+                    <div className='inner-text'>
                         <h1 className="mb-5 text-5xl font-bold">WEB DEVELOPER</h1>
                         <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                        </div>
                         <div className="group pt-40 hover:animate-bounce">
                         <button>
                         <a href='#about'><ArrowDownCircle className='arrow'></ArrowDownCircle></a>
@@ -148,7 +150,7 @@ function Landing(){
                 <div>
                 <div className="card w-auto	 bg-[#29243c78] text-neutral-content p-14 ">
                     <div className="card-body items-center text-center text-white">
-                    <h2 className="card-title ">Want to hire me for you next project? </h2>
+                    <h2 className="card-title ">Want to hire me for your next project? </h2>
                     <p>Please contact me via email garcia.valeria001@outlook.com</p>
                     <div className="card-actions justify-end">
                         <button className="btn btn-primary  text-white"><Link to={'/contact'}>Contact</Link></button>
