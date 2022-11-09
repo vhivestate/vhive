@@ -114,7 +114,7 @@ function Resume() {
 <div>
             <div className="card w-auto	 bg-[#29243c78] text-neutral-content p-14 ">
                     <div className="card-body items-center text-center text-white">
-                    <h2 className="card-title ">Want to hire me for you next project? </h2>
+                    <h2 className="card-title ">Want to hire me for your next project? </h2>
                     <p>Please contact me via email garcia.valeria001@outlook.com</p>
                     <div className="card-actions justify-end">
                         <button className="btn btn-primary  text-white"><Link to={'/contact'}>Contact</Link></button>
