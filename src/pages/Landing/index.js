@@ -12,7 +12,7 @@ function Landing(){
                     <div className="hero-content text-center text-neutral-content">
                     <div className="max-w-md">
                     <div className='inner-text'>
-                        <h1 className="mb-5 text-5xl font-bold">MERN STACK WEB DEVELOPER</h1>
+                        <h1 className="mb-5 text-5xl font-bold pt-40">MERN STACK WEB DEVELOPER</h1>
                         <p className="mb-5"></p>
                         </div>
                         <div className="group pt-40 hover:animate-bounce">

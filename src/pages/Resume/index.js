@@ -18,14 +18,9 @@ function Resume() {
 
 <div className='download-res flex flex-wrap justify-center pt-20'>
 
-<div className="card w-96 bg-neutral text-neutral-content">
-  <div className="card-body items-center text-center">
-    <h2 className='res-head card-title text-center p-4 text-3xl'>DOWNLOAD RESUME</h2>
-      <div className="card-actions justify-end">
-      <button className='text-center '><a href={ResumePdf} download="resume.22.pdf"><Download></Download></a>
+  <div className="btn">
+      <button>Download Resume<a href={ResumePdf} download="resume.22.pdf"><Download></Download></a>
       </button>
-      </div>
-    </div>
   </div>
 </div>
 
