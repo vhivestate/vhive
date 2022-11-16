@@ -12,8 +12,8 @@ function Landing(){
                     <div className="hero-content text-center text-neutral-content">
                     <div className="max-w-md">
                     <div className='inner-text'>
-                        <h1 className="mb-5 text-5xl font-bold">WEB DEVELOPER</h1>
-                        <p className="mb-5">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <h1 className="mb-5 text-5xl font-bold">MERN STACK WEB DEVELOPER</h1>
+                        <p className="mb-5"></p>
                         </div>
                         <div className="group pt-40 hover:animate-bounce">
                         <button>
@@ -35,7 +35,7 @@ function Landing(){
             <div className="card-body justify-around ">
                 <h2 className="card-title">Valeria Garcia</h2>
                 <div className='card-text'>
-                <p className='min-w-fit'>Full-stack web developer based out of Salt Lake City, Utah. Graduated from The University of Utah. Here to provide everything you will need for your perfect website and tutoring for computer science students interested in programming. </p>
+                <p className='min-w-fit'>Full-stack web developer based out of Salt Lake City, Utah. Graduated from The University of Utah. Here to provide everything you will need for your perfect website and tutoring for computer science students of all ages interested in programming. </p>
                 </div>
                 <div className='flex flex-wrap p-3 justify-center'>
                 <button className="about-btn btn btn-primary btn-wide text-white"><Link to={'/projects'}>View Work</Link></button>  
@@ -57,7 +57,6 @@ function Landing(){
                     <dt>Landing Page</dt>
                     <dt>Ecommerce Website</dt>
                     <dt>Booking Website</dt>
-                    <dt>Management System</dt>
                     <dt>Contact Form</dt>
                     <dt>Portfolio</dt>
                 </dl>
@@ -72,10 +71,9 @@ function Landing(){
                 <h2 className="card-title underline">TUTORING</h2>
             <div className='frontend'>
                 <dl>
-                    <dt>HTML/CSS</dt>
-                    <dt>JavaScript</dt>
-                    <dt>Backend</dt>
-                    <dt>Frontend</dt>
+                    <dt>Basic Web Development</dt>
+                    <dt>Backend Development</dt>
+                    <dt>Frontend Decelopment</dt>
                     <dt>Portfolio Building</dt>
                 </dl>
             </div>
