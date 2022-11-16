@@ -29,7 +29,7 @@ function Landing(){
 
             <h2 data-aos="fade-right" id='about' className='landing-skills text-center pt-10 text-5xl	bg-[#29243c78] text-white'>ABOUT</h2>
             <div className='bg-[#29243c78] text-white '>
-            <div className='about pt-14 flex flex-wrap justify-center'>
+            <div data-aos="zoom-in" data-aos-duration="2000" className='about pt-14 flex flex-wrap justify-center'>
             <div className=" card lg:card-side w-10/12 p-5 glass">
             <figure><img src={Headshot} alt="Album"/></figure>
             <div className="card-body justify-around ">
@@ -49,7 +49,7 @@ function Landing(){
                {/* services */}
         <h2 className='text-center pt-10 text-5xl	'>SERVICES</h2>
         <div className='flex flex-wrap justify-center p-8 space-x-4 '>
-            <div className="card w-96 bg-neutral ">
+            <div data-aos="fade-right" className="card w-96 bg-neutral ">
             <div className="card-body items-center text-center">
                 <h2 className="card-title underline">WEB DEVELOPMENT</h2>
             <div className='frontend'>
@@ -67,7 +67,7 @@ function Landing(){
 
     <div className="nav-a divider divider-horizontal text-xl">&</div>
 
-    <div className="card w-96 bg-neutral ">
+    <div data-aos="fade-left" className="card w-96 bg-neutral ">
             <div className="card-body items-center text-center">
                 <h2 className="card-title underline">TUTORING</h2>
             <div className='frontend'>
@@ -90,7 +90,7 @@ function Landing(){
 {/* skills */}
 <h2 className='landing-skills text-center pt-10 text-5xl	'>SKILLS</h2>
   <div className='resume-skills flex flex-wrap justify-center p-8 space-x-4 '>
-    <div className="card w-96 bg-neutral ">
+    <div data-aos="fade-right" className="card w-96 bg-neutral ">
       <div className="card-body items-center text-center">
         <h2 className="card-title">FRONTEND</h2>
         <div className='frontend'>
@@ -118,7 +118,7 @@ function Landing(){
 
     <div className="nav-a divider divider-horizontal text-xl">&</div>
 
-    <div className="card w-96 bg-neutral">
+    <div data-aos="fade-left" className="card w-96 bg-neutral">
       <div className="card-body items-center text-center">
         <h2 className="card-title">BACKEND</h2>
         <div className='backend'>
