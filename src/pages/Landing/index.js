@@ -27,10 +27,10 @@ function Landing(){
 
     {/* ABOUT */}
 
-            <h2 id='about' className='landing-skills text-center pt-10 text-5xl	bg-[#29243c78] text-white'>ABOUT</h2>
-            <div className='bg-[#29243c78] text-white'>
-            <div className='about pt-14 flex flex-wrap justify-center '>
-            <div className="card lg:card-side w-10/12 p-5 glass">
+            <h2 data-aos="fade-right" id='about' className='landing-skills text-center pt-10 text-5xl	bg-[#29243c78] text-white'>ABOUT</h2>
+            <div className='bg-[#29243c78] text-white '>
+            <div className='about pt-14 flex flex-wrap justify-center'>
+            <div className=" card lg:card-side w-10/12 p-5 glass">
             <figure><img src={Headshot} alt="Album"/></figure>
             <div className="card-body justify-around ">
                 <h2 className="card-title">Valeria Garcia</h2>
