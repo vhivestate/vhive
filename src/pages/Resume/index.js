@@ -3,10 +3,11 @@ import { Download } from 'react-feather';
 import ResumePdf from '../../assests/files/resume.22.pdf'
 import Badge from '../../assests/images/badge-code.png'
 import { Link } from 'react-router-dom'
+import './style.css'
 
 function Resume() {
   return (
-<div className='resume-page bg-[#29243c78]'>
+<div className='resume-page bg-[#0d051c]'>
 <div className="hero h-80 bg-fixed" style={{ backgroundImage: `url("https://sat02pap005files.storage.live.com/y4mccQegH1llhIfqRKMdAXiRthJjyBcQ1H1eBSvib3C8Nx5u_C181cxK4SgIMiBjg8lZJw4ul0AR1ZxSLO-bWrWZ8WrFU3-_wVy1qA0K530m8otUr5vNpgZBdEzMG52cbqwhyDZqoo8js9ZCM8sLZntIjyjRzx9jcPb8HhDyqcQz-MiC4NhBT4g4JjRFMn_hfb1?width=1024&height=683&cropmode=none")` }}>
       <div className="hero-overlay bg-opacity-60"></div>
       <div className="hero-content text-center text-white">
@@ -111,7 +112,7 @@ function Resume() {
   {/* <div className="divider pt-9"></div>  */}
 
 <div>
-            <div className="card w-auto	 bg-[#29243c78] text-neutral-content p-14 ">
+            <div className="card w-auto	 bg-[#0d051c] text-neutral-content p-14 ">
                     <div className="card-body items-center text-center text-white">
                     <h2 className="card-title ">Want to hire me for your next project? </h2>
                     <p>Please contact me via email garcia.valeria001@outlook.com</p>

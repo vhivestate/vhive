@@ -4,7 +4,7 @@ import '../App.css'
 
 function Nav(props){
     return (
-        <nav className="navbar bg-transparent text-white fixed top-0 z-40">
+        <nav className="navbar bg-transparent text-[#fcdeff] fixed top-0 z-40">
         <div className="navbar bg-transparent">
         <div className="navbar-start">
             <div className="dropdown">
