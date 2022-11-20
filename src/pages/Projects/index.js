@@ -21,7 +21,7 @@ function Projects(){
 
             <div className='projects flex flex-wrap justify-around'>
     <div>
-        <div className="card w-96 glass shadow-xl text-white">
+        <div data-aos="flip-left" className="card w-96 glass shadow-xl text-white">
         <figure className="px-10 pt-10">
         <img src={Trim} alt="Shoes" className="rounded-xl" />
         </figure>
@@ -38,7 +38,7 @@ function Projects(){
     </div>
 
     <div className='pt-9'>
-        <div className="card w-96 glass shadow-xl text-white">
+        <div data-aos="flip-left" className="card w-96 glass shadow-xl text-white">
         <figure className="px-10 pt-10">
         <img src={Rolodex} alt="Shoes" className="rounded-xl" />
         </figure>
@@ -55,7 +55,7 @@ function Projects(){
     </div>
 
     <div className='pt-9'>
-        <div className="card w-96 glass shadow-xl text-white">
+        <div data-aos="flip-left" className="card w-96 glass shadow-xl text-white">
         <figure className="px-10 pt-10">
         <img src={Book} alt="Shoes" className="rounded-xl" />
         </figure>
@@ -72,7 +72,7 @@ function Projects(){
     </div>
 
     <div className='pt-9'>
-        <div className="card w-96 glass shadow-xl text-white">
+        <div data-aos="flip-left" className="card w-96 glass shadow-xl text-white">
         <figure className="px-10 pt-10">
         <img src={Schedule} alt="Shoes" className="rounded-xl" />
         </figure>
@@ -89,7 +89,7 @@ function Projects(){
     </div>
 
     <div className='pt-9 pb-9'>
-        <div className="card w-96 glass shadow-xl text-white">
+        <div data-aos="flip-left" className="card w-96 glass shadow-xl text-white">
         <figure className="px-10 pt-10">
         <img src={Note} alt="Shoes" className="rounded-xl" />
         </figure>
