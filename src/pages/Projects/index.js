@@ -21,7 +21,7 @@ function Projects(){
 
             <div className='projects flex flex-wrap justify-around'>
     <div>
-        <div data-aos="flip-left" className="card w-96 glass shadow-xl text-white">
+        <div data-aos="flip-right" className="card w-96 glass shadow-xl text-white">
         <figure className="px-10 pt-10">
         <img src={Trim} alt="Shoes" className="rounded-xl" />
         </figure>
