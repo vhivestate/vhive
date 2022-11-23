@@ -3,6 +3,7 @@ import '../../App.css'
 import Headshot from '../../assests/images/headshot.png'
 import { Link } from 'react-router-dom';
 import { ArrowDownCircle } from 'react-feather';
+import './font.css'
 
 function Landing(){
     return(
@@ -27,7 +28,7 @@ function Landing(){
 
     {/* ABOUT */}
 
-            <h2 data-aos="fade-right" id='about' className='landing-skills text-center pt-10 text-5xl	bg-[#29243c78] text-white'>ABOUT</h2>
+            <h2 data-aos="fade-right" id='about' className='landing-skills text-center pt-10 text-5xl	bg-[#29243c78] text-white landingH2'>ABOUT</h2>
             <div className='bg-[#29243c78] text-white '>
             <div data-aos="zoom-in" data-aos-duration="2000" className='about pt-14 flex flex-wrap justify-center'>
             <div className=" card lg:card-side w-10/12 p-5 glass">
@@ -47,7 +48,7 @@ function Landing(){
             <div className="divider pt-9"></div> 
 
                {/* services */}
-        <h2 className='text-center pt-10 text-5xl	'>SERVICES</h2>
+        <h2 className='text-center pt-10 text-5xl landingH2'>SERVICES</h2>
         <div className='flex flex-wrap justify-center p-8 space-x-4 '>
             <div data-aos="fade-right" className="card w-96 bg-neutral ">
             <div className="card-body items-center text-center">
@@ -86,7 +87,7 @@ function Landing(){
   <div className="divider pt-9"></div> 
 
 {/* skills */}
-<h2 className='landing-skills text-center pt-10 text-5xl	'>SKILLS</h2>
+<h2 className='landing-skills text-center pt-10 text-5xl landingH2'>SKILLS</h2>
   <div className='resume-skills flex flex-wrap justify-center p-8 space-x-4 '>
     <div data-aos="fade-right" className="card w-96 bg-neutral ">
       <div className="card-body items-center text-center">

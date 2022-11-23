@@ -1,0 +1,8 @@
+@font-face {
+    font-family: NY;
+    src: url(../../assests/fonts/NewYork\ PERSONAL\ USE.otf);
+}
+
+.landingH2 {
+    font-family: NY;
+}
