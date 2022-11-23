@@ -93,19 +93,10 @@ function Landing(){
         <h2 className="card-title">FRONTEND</h2>
         <div className='frontend'>
             <dl>
-                <dt>HTML:</dt>
-                    <dd> - Forms & Validation</dd>
-                    <dd> - Semantic Tags</dd>
-                    <dd> - Accessibility</dd>
-                <dt>CSS:</dt>
-                    <dd>- Flexbox</dd>
-                    <dd>- Responsive Design</dd>
-                    <dd>- Media Queries</dd>
-                <dt>JavaScript:</dt>
-                    <dd> - ES6 + Syntax </dd>
-                    <dd> - DOM Manipulation </dd>
-                    <dd> - Fetch API or AJAX</dd>
-                    <dd> - Hoisting, Closures, Event Bubbling</dd>
+                <dt>HTML</dt>
+                <dt>CSS</dt>
+                <dt>JavaScript</dt>
+                <dt>React.js</dt>
             </dl>
             </div>
         <div className="card-actions justify-end">
@@ -123,19 +114,10 @@ function Landing(){
           
             <dl>
                 <dt>Node.js</dt>
-                <dt>Database:</dt>
-                    <dd>- MongoDB</dd>
-                    <dd>- GraphQL</dd>
-                    <dd>- MySQL</dd>
-                <dt>API:</dt>
-                    <dd>- REST</dd>
-                    <dd>- JSON</dd>
-                    <dd>- SOAP</dd>
+                <dt>MongoDB</dt>
+                <dt>GraphQL</dt>
+                <dt>MySQL</dt>
                 <dt>Express.js</dt>
-                <dt>Frameworks:</dt>
-                    <dd>- React.js</dd>
-                    <dd>- Bootstrap</dd>
-                    <dd>- Tailwind</dd>
             </dl>
             </div>
         <div className="card-actions justify-end">
