@@ -47,64 +47,64 @@ function Resume() {
 {/* <div className="divider pt-9"></div>  */}
 
 
-{/* <h2 className='res-head text-center text-3xl p-5 '>SKILLS</h2>
-<div className='resume-skills flex flex-wrap justify-center pb-9'>
-<div className="card w-96 bg-neutral text-neutral-content">
-  <div className="card-body items-center text-center">
-    <h2 className="card-title text-white">FRONTEND</h2>
-    <div className='frontend text-white'>
-        <dl>
-            <dt>HTML:</dt>
-                <dd> - Forms & Validation</dd>
-                <dd> - Semantic Tags</dd>
-                <dd> - Accessibility</dd>
-            <dt>CSS:</dt>
-                <dd>- Flexbox</dd>
-                <dd>- Responsive Design</dd>
-                <dd>- Media Queries</dd>
-            <dt>JavaScript:</dt>
-                <dd> - ES6 + Syntax </dd>
-                <dd> - DOM Manipulation </dd>
-                <dd> - Fetch API or AJAX</dd>
-                <dd> - Hoisting, Closures, Event Bubbling</dd>
-        </dl>
+<h2 className='landing-skills text-center pt-10 text-5xl	'>SKILLS</h2>
+  <div className='resume-skills flex flex-wrap justify-center p-8 space-x-4 '>
+    <div data-aos="fade-right" className="card w-96 bg-neutral ">
+      <div className="card-body items-center text-center">
+        <h2 className="card-title">FRONTEND</h2>
+        <div className='frontend'>
+            <dl>
+                <dt>HTML:</dt>
+                    <dd> - Forms & Validation</dd>
+                    <dd> - Semantic Tags</dd>
+                    <dd> - Accessibility</dd>
+                <dt>CSS:</dt>
+                    <dd>- Flexbox</dd>
+                    <dd>- Responsive Design</dd>
+                    <dd>- Media Queries</dd>
+                <dt>JavaScript:</dt>
+                    <dd> - ES6 + Syntax </dd>
+                    <dd> - DOM Manipulation </dd>
+                    <dd> - Fetch API or AJAX</dd>
+                    <dd> - Hoisting, Closures, Event Bubbling</dd>
+            </dl>
+            </div>
+        <div className="card-actions justify-end">
+
         </div>
-    <div className="card-actions justify-end">
-
-    </div>
-  </div>
-</div>
-
-<div className="nav-a divider divider-horizontal text-xl">&</div>
-
-
-<div className="card w-96 bg-neutral text-neutral-content">
-  <div className="card-body items-center text-center">
-    <h2 className="card-title text-white">BACKEND</h2>
-    <div className='backend text-white'>
-      
-        <dl>
-            <dt>Node.js</dt>
-            <dt>Database:</dt>
-                <dd>- MongoDB</dd>
-                <dd>- GraphQL</dd>
-                <dd>- MySQL</dd>
-            <dt>API:</dt>
-                <dd>- REST</dd>
-                <dd>- JSON</dd>
-                <dd>- SOAP</dd>
-            <dt>Express.js</dt>
-            <dt>Frameworks:</dt>
-                <dd>- React.js</dd>
-                <dd>- Bootstrap</dd>
-                <dd>- Tailwind</dd>
-        </dl>
-        </div>
-      <div className="card-actions justify-end">
       </div>
     </div>
-  </div>
-</div> */}
+
+    <div className="nav-a divider divider-horizontal text-xl">&</div>
+
+    <div data-aos="fade-left" className="card w-96 bg-neutral">
+      <div className="card-body items-center text-center">
+        <h2 className="card-title">BACKEND</h2>
+        <div className='backend'>
+          
+            <dl>
+                <dt>Node.js</dt>
+                <dt>Database:</dt>
+                    <dd>- MongoDB</dd>
+                    <dd>- GraphQL</dd>
+                    <dd>- MySQL</dd>
+                <dt>API:</dt>
+                    <dd>- REST</dd>
+                    <dd>- JSON</dd>
+                    <dd>- SOAP</dd>
+                <dt>Express.js</dt>
+                <dt>Frameworks:</dt>
+                    <dd>- React.js</dd>
+                    <dd>- Bootstrap</dd>
+                    <dd>- Tailwind</dd>
+            </dl>
+            </div>
+        <div className="card-actions justify-end">
+        </div>
+      </div>
+    </div>
+
+    </div>
 
   {/* <div className="divider pt-9"></div>  */}
 
