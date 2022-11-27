@@ -85,7 +85,6 @@ function Landing(){
 
 
   <div className="divider pt-9"></div> 
-
 {/* skills */}
 <h2 className='landing-skills text-center pt-10 text-5xl landingH2'>SKILLS</h2>
   <div className='resume-skills flex flex-wrap justify-center p-8 space-x-4 '>
