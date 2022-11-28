@@ -14,7 +14,7 @@ function Footer(){
             <div className="grid grid-flow-col gap-4">
                 <a className="link link-hover"><Link to={'/projects'}>Projects</Link></a> 
                 <a className="link link-hover"><Link to={'/contact'}>Contact</Link></a> 
-                <a className="link link-hover" ><Link to={'/services'}>Services</Link></a> 
+                {/* <a className="link link-hover" ><Link to={'/services'}>Services</Link></a>  */}
             </div> 
             
             <div>

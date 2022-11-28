@@ -67,7 +67,7 @@ export const Contact = () => {
                     </label>
                 )}
                 
-                <input type="submit" className="btn btn-secondary w-full" value={"Submit"}/>
+                <input type="submit" className="btn btn-primary w-full" value={"Submit"}/>
                 </form>
                 {successMessage && (
                     <div className="alert alert-success shadow-lg my-4">
