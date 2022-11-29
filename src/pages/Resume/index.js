@@ -40,7 +40,7 @@ function Resume() {
 <h2 className='resHeaders landing-skills text-center pt-10 text-5xl	text-white'>SKILLS</h2>
   <div className='resume-skills flex flex-wrap justify-center p-8 space-x-4 '>
     <div data-aos="fade-right" className="card w-96 bg-neutral ">
-      <div className="card-body items-center text-center">
+      <div className="card-body items-center text-center glass">
         <h2 className="card-title">FRONTEND</h2>
         <div className='frontend'>
             <dl>
@@ -68,7 +68,7 @@ function Resume() {
     <div className="nav-a divider divider-horizontal text-xl">&</div>
 
     <div data-aos="fade-left" className="card w-96 bg-neutral">
-      <div className="card-body items-center text-center">
+      <div className="card-body items-center text-center glass">
         <h2 className="card-title">BACKEND</h2>
         <div className='backend'>
           
