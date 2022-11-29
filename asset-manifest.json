@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.16c2e5a9.css",
-    "main.js": "/static/js/main.8f4b65dd.js",
+    "main.css": "/static/css/main.690e1cd9.css",
+    "main.js": "/static/js/main.8ccdb567.js",
     "static/js/787.d564680c.chunk.js": "/static/js/787.d564680c.chunk.js",
     "static/media/rolodex.png": "/static/media/rolodex.0bf2545616e21e7b40d3.png",
     "static/media/book-search.png": "/static/media/book-search.b276e6d9f8b9ee20e03b.png",
@@ -9,15 +9,16 @@
     "static/media/headshot.png": "/static/media/headshot.00255ec980b7d0ae45b1.png",
     "static/media/trimdown.png": "/static/media/trimdown.0bf87e5d2348c5bdd2ee.png",
     "static/media/resume.22.pdf": "/static/media/resume.22.3624bfd7530048c9f3b5.pdf",
+    "static/media/NewYork PERSONAL USE.otf": "/static/media/NewYork PERSONAL USE.e934fc10a53877d377d0.otf",
     "static/media/notetaker.png": "/static/media/notetaker.fa1a97f4dd81aaa1c40e.png",
     "static/media/badge-code.png": "/static/media/badge-code.08ec3e6940b5c5f5695e.png",
     "index.html": "/index.html",
-    "main.16c2e5a9.css.map": "/static/css/main.16c2e5a9.css.map",
-    "main.8f4b65dd.js.map": "/static/js/main.8f4b65dd.js.map",
+    "main.690e1cd9.css.map": "/static/css/main.690e1cd9.css.map",
+    "main.8ccdb567.js.map": "/static/js/main.8ccdb567.js.map",
     "787.d564680c.chunk.js.map": "/static/js/787.d564680c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.16c2e5a9.css",
-    "static/js/main.8f4b65dd.js"
+    "static/css/main.690e1cd9.css",
+    "static/js/main.8ccdb567.js"
   ]
 }
