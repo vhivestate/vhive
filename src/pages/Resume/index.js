@@ -102,7 +102,7 @@ function Resume() {
 
     </div>
 
-    <div className="">
+    <div className="flex flex-wrap justify-center">
         <div download="resume.22.pdf" className="button-36 btn">
           <a href={ResumePdf} download="resume.22.pdf"> Resume
           <Download></Download> 
