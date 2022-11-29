@@ -1,5 +1,4 @@
 import React from 'react'
-import { Download } from 'react-feather';
 import ResumePdf from '../../assests/files/resume.22.pdf'
 import Badge from '../../assests/images/badge-code.png'
 import { Link } from 'react-router-dom'
@@ -18,12 +17,7 @@ function Resume() {
     </div>
  
 
-
-
-
-{/* <div className="divider pt-9"></div>  */}
-
-<h2 className='res-head text-center text-3xl p-5'>CERTIFICATION</h2>
+<h2 className='resHeaders text-center text-5xl p-5 text-white'>CERTIFICATION</h2>
 <div className='flex flex-wrap justify-center text-white'>
   <div className="card w-96 glass shadow-xl ">
     <figure className='p-5'><img src={Badge} alt="Shoes" /></figure>
@@ -43,7 +37,7 @@ function Resume() {
 {/* <div className="divider pt-9"></div>  */}
 
 
-<h2 className='landing-skills text-center pt-10 text-5xl	'>SKILLS</h2>
+<h2 className='resHeaders landing-skills text-center pt-10 text-5xl	text-white'>SKILLS</h2>
   <div className='resume-skills flex flex-wrap justify-center p-8 space-x-4 '>
     <div data-aos="fade-right" className="card w-96 bg-neutral ">
       <div className="card-body items-center text-center">
@@ -104,8 +98,7 @@ function Resume() {
 
     <div className="flex flex-wrap justify-center">
         <div download="resume.22.pdf" className="button-36 btn">
-          <a href={ResumePdf} download="resume.22.pdf"> Resume
-          <Download></Download> 
+          <a href={ResumePdf} download="resume.22.pdf"> Download Resume
           </a>
         </div>
         </div>
