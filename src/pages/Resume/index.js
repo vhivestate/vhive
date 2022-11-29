@@ -8,16 +8,12 @@ import './style.css'
 function Resume() {
   return (
 <div className='resume-page bg-[#0d051c]'>
-<div className="hero h-96" style={{ backgroundImage: `url("https://sat02pap005files.storage.live.com/y4mccQegH1llhIfqRKMdAXiRthJjyBcQ1H1eBSvib3C8Nx5u_C181cxK4SgIMiBjg8lZJw4ul0AR1ZxSLO-bWrWZ8WrFU3-_wVy1qA0K530m8otUr5vNpgZBdEzMG52cbqwhyDZqoo8js9ZCM8sLZntIjyjRzx9jcPb8HhDyqcQz-MiC4NhBT4g4JjRFMn_hfb1?width=1024&height=683&cropmode=none")` }}>
+<div className="hero h-64" style={{ backgroundImage: `url("https://sat02pap005files.storage.live.com/y4mccQegH1llhIfqRKMdAXiRthJjyBcQ1H1eBSvib3C8Nx5u_C181cxK4SgIMiBjg8lZJw4ul0AR1ZxSLO-bWrWZ8WrFU3-_wVy1qA0K530m8otUr5vNpgZBdEzMG52cbqwhyDZqoo8js9ZCM8sLZntIjyjRzx9jcPb8HhDyqcQz-MiC4NhBT4g4JjRFMn_hfb1?width=1024&height=683&cropmode=none")` }}>
       <div className="hero-overlay bg-opacity-60"></div>
       <div className="hero-content text-center text-white">
-        <div className="">
-        <div download="resume.22.pdf" className="button-36 btn">
-          <a href={ResumePdf} download="resume.22.pdf"> Resume
-          <Download></Download> 
-          </a>
-        </div>
-        </div>
+      <div>
+        <h1 className='text-5xl font-bold text-white'>RESUME</h1>
+      </div>
       </div>
     </div>
  
@@ -105,6 +101,14 @@ function Resume() {
     </div>
 
     </div>
+
+    <div className="">
+        <div download="resume.22.pdf" className="button-36 btn">
+          <a href={ResumePdf} download="resume.22.pdf"> Resume
+          <Download></Download> 
+          </a>
+        </div>
+        </div>
 
   {/* <div className="divider pt-9"></div>  */}
 
