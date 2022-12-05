@@ -34,10 +34,11 @@
 }
 
 @font-face {
-    font-family: NY;
-    src: url(../../assests/fonts/NewYork\ PERSONAL\ USE.otf);
+    font-family: varg;
+    src: url(../../assests/fonts/SvargeRegular-lgaLe.ttf);
 }
 
 .resHeaders {
-    font-family: NY;
+    font-family: varg;
+    font-weight: bold;
 }

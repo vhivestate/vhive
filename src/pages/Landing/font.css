@@ -1,8 +1,9 @@
 @font-face {
-    font-family: NY;
-    src: url(../../assests/fonts/NewYork\ PERSONAL\ USE.otf);
+    font-family: varg;
+    src: url(../../assests/fonts/SvargeRegular-lgaLe.ttf);
 }
 
 .landingH2 {
-    font-family: NY;
+    font-family: varg;
+    font-weight: bold;
 }
