@@ -3,7 +3,15 @@
     src: url(../assests/fonts/Benetti\ Grotesk\ Free.otf);
 }
 
+@font-face {
+    font-family: ray;
+    src: url(../assests/fonts/Superme-GOx4A.ttf);
+}
+
 .logo {
     font-family: king;
-    /* font-weight: bold; */
+}
+
+.menu {
+    font-weight: light;
 }
