@@ -17,10 +17,10 @@ function Resume() {
     </div>
  
 
-<h2 className='resHeaders text-center text-5xl p-5 text-white'>CERTIFICATION</h2>
+{/* <h2 className='resHeaders text-center text-5xl p-5 text-white'>CERTIFICATION</h2> */}
 <div className='flex flex-wrap justify-center text-white'>
   <div className="card w-96 glass shadow-xl ">
-    <figure className='p-5'><img src={Badge} alt="Shoes" /></figure>
+    <figure className='p-5'><img src={Badge} alt="badge" /></figure>
     <div className="card-body">
       <h2 className="card-title justify-center the-u">University of Utah</h2>
       <p className='text-center'>Full Stack Developer Certification</p>
