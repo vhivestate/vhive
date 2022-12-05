@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import '../App.css'
+import './font.css'
 
 function Nav(props){
     return (
@@ -18,7 +19,7 @@ function Nav(props){
                     {/* <li><a><Link to={'/services'}>Services</Link></a></li> */}
             </ul>
             </div>
-            <a className="btn btn-ghost normal-case text-xl"> <Link to={'/'}>vhive</Link></a>
+            <a className="logo btn btn-ghost normal-case text-xl"> <Link to={'/'}>vhive</Link></a>
         </div>
         <div className="navbar-end hidden lg:flex">
             <ul className="menu menu-horizontal p-0">

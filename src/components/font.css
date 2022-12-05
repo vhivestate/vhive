@@ -1,0 +1,9 @@
+@font-face {
+    font-family: king;
+    src: url(../assests/fonts/Benetti\ Grotesk\ Free.otf);
+}
+
+.logo {
+    font-family: king;
+    /* font-weight: bold; */
+}
