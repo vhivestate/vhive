@@ -22,7 +22,7 @@ function Resume() {
             <div className=" card lg:card-side w-10/12 p-5 glass">
             <figure><img src={Badge} alt="Album"/></figure>
             <div className="card-body justify-around ">
-                <h2 className="uou card-title text-5xl">University of Utah </h2>
+                <h2 className="uou card-title text-3xl">University of Utah </h2>
                 <div className='card-text'>
                 <p className='min-w-fit'>Obtained my coding certification from The University of Utah where I learned specialized skills in full-stack development. </p>
                 </div>
