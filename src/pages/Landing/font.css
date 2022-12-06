@@ -15,5 +15,6 @@
 
 .signature {
     font-family:sign;
+    font-weight: lighter;
     /* font-size: larger; */
 }
