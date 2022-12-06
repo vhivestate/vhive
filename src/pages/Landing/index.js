@@ -34,7 +34,7 @@ function Landing(){
             <div className=" card lg:card-side w-10/12 p-5 glass">
             <figure><img src={Headshot} alt="Album"/></figure>
             <div className="card-body justify-around ">
-                <h2 className="card-title">Valeria Garcia</h2>
+                <h2 className="signature card-title">Valeria Garcia</h2>
                 <div className='card-text'>
                 <p className='min-w-fit'>Full-stack web developer based out of Salt Lake City, Utah. Graduated from The University of Utah. Here to provide everything you will need for your perfect website and tutoring for computer science students of all ages interested in programming. </p>
                 </div>

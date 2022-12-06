@@ -1,9 +1,19 @@
 @font-face {
-    font-family: sof;
+    font-family: geo;
     src: url(../../assests/fonts/GeomanistRegular.ttf);
 }
 
+@font-face {
+    font-family: sign;
+    src: url(../../assests/fonts/Yustine\ Signature.otf);
+}
+
 .landingH2 {
-    font-family: sof;
+    font-family: geo;
     font-weight: bold;
+}
+
+.signature {
+    font-family:sign;
+    /* font-size: larger; */
 }
