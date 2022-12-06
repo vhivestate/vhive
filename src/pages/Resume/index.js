@@ -17,24 +17,23 @@ function Resume() {
     </div>
  
 
-{/* <h2 className='resHeaders text-center text-5xl p-5 text-white'>CERTIFICATION</h2> */}
-<div className='flex flex-wrap justify-center text-white'>
-  <div className="card w-96 glass shadow-xl ">
-    <figure className='p-5'><img src={Badge} alt="badge" /></figure>
-    <div className="card-body">
-      <h2 className="card-title justify-center the-u">University of Utah</h2>
-      <p className='text-center'>Full Stack Developer Certification</p>
-      <div className="card-actions justify-center">
-      <button className="nav-a btn btn-primary">
+
+    <div data-aos="zoom-in" data-aos-duration="2000" className='about pt-14 flex flex-wrap justify-center'>
+            <div className=" card lg:card-side w-10/12 p-5 glass">
+            <figure><img src={Badge} alt="Album"/></figure>
+            <div className="card-body justify-around ">
+                <h2 className="signature card-title text-5xl">University of Utah </h2>
+                <div className='card-text'>
+                <p className='min-w-fit'>Full-stack web developer based out of Salt Lake City, Utah. Graduated from The University of Utah. Here to provide everything you will need for your perfect website and tutoring for computer science students of all ages interested in programming. </p>
+                </div>
+                <div className='flex flex-wrap p-3 justify-center'>
+                <button className="btn-wide nav-a btn btn-primary">
                 <a href='https://www.credly.com/badges/e6040418-d001-43ac-ade5-cc7f8da2fe4d/linked_in_profile'>View Credentials</a>
             </button>
-        </div>
-    </div>
-  </div>
-</div>
-
-
-{/* <div className="divider pt-9"></div>  */}
+                    </div>
+                </div>
+            </div>
+            </div>
 
 
 <h2 className='resHeaders landing-skills text-center pt-10 text-5xl	text-white'>SKILLS</h2>
