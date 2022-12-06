@@ -1,15 +1,11 @@
 @font-face {
-    font-family: bene;
-    src: url(../assests/fonts/Orlande.otf);
+    font-family: logo;
+    src: url(../assests/fonts/gaia-trial.ttf);
 }
 
-/* @font-face {
-    font-family: ray;
-    src: url(../assests/fonts/Superme-GOx4A.ttf);
-} */
-
 .logo {
-    font-family: bene;
+    font-family: logo;
+    font-weight: lighter;
 }
 
 .menu {
