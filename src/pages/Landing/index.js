@@ -28,7 +28,6 @@ function Landing(){
 
     {/* ABOUT */}
 
-            {/* <h2 id='about' className='landing-skills text-center pt-10 text-5xl	bg-[#29243c78] text-white landingH2'>ABOUT</h2> */}
             <div className='bg-[#29243c78] text-white '>
             <div data-aos="zoom-in" data-aos-duration="2000" className='about pt-14 flex flex-wrap justify-center'>
             <div className=" card lg:card-side w-10/12 p-5 glass">
