@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.c29900e1.css",
-    "main.js": "/static/js/main.05361a9f.js",
+    "main.js": "/static/js/main.cd1625b7.js",
     "static/js/787.d564680c.chunk.js": "/static/js/787.d564680c.chunk.js",
     "static/media/TrajanPro-Regular.ttf": "/static/media/TrajanPro-Regular.5e3d3ff4f80f0875f849.ttf",
     "static/media/rolodex.png": "/static/media/rolodex.0bf2545616e21e7b40d3.png",
@@ -18,11 +18,11 @@
     "static/media/badge-code.png": "/static/media/badge-code.08ec3e6940b5c5f5695e.png",
     "index.html": "/index.html",
     "main.c29900e1.css.map": "/static/css/main.c29900e1.css.map",
-    "main.05361a9f.js.map": "/static/js/main.05361a9f.js.map",
+    "main.cd1625b7.js.map": "/static/js/main.cd1625b7.js.map",
     "787.d564680c.chunk.js.map": "/static/js/787.d564680c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c29900e1.css",
-    "static/js/main.05361a9f.js"
+    "static/js/main.cd1625b7.js"
   ]
 }
