@@ -1,15 +1,15 @@
 @font-face {
-    font-family: king;
+    font-family: bene;
     src: url(../assests/fonts/Benetti\ Grotesk\ Free.otf);
 }
 
-@font-face {
+/* @font-face {
     font-family: ray;
     src: url(../assests/fonts/Superme-GOx4A.ttf);
-}
+} */
 
 .logo {
-    font-family: king;
+    font-family: bene;
 }
 
 .menu {

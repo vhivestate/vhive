@@ -1,9 +1,9 @@
 @font-face {
-    font-family: varg;
-    src: url(../../assests/fonts/SvargeRegular-lgaLe.ttf);
+    font-family: sof;
+    src: url(../../assests/fonts/GeomanistRegular.ttf);
 }
 
 .landingH2 {
-    font-family: varg;
+    font-family: sof;
     font-weight: bold;
 }
