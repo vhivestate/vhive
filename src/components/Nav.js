@@ -16,7 +16,7 @@ function Nav(props){
             <li><a><Link to={'/projects'}>Projects</Link></a></li>
                     <li><a><Link to={'/contact'}>Contact</Link></a></li>
                     <li><a><Link to={'/resume'}>Resume</Link></a></li>
-                    {/* <li><a><Link to={'/services'}>Services</Link></a></li> */}
+                    <li><a><Link to={'/services'}>Services</Link></a></li>
             </ul>
             </div>
             <a className="logo btn btn-ghost normal-case text-3xl"> <Link to={'/'}>vhive</Link></a>
@@ -26,7 +26,7 @@ function Nav(props){
             <li><a><Link to={'/projects'}>Projects</Link></a></li>
                     <li><a><Link to={'/contact'}>Contact</Link></a></li>
                     <li><a><Link to={'/resume'}>Resume</Link></a></li>
-                    {/* <li><a><Link to={'/services'}>Services</Link></a></li> */}
+                    <li><a><Link to={'/services'}>Services</Link></a></li>
             </ul>
         </div>
         </div>
