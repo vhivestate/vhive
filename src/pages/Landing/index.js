@@ -44,7 +44,7 @@ function Landing(){
             </div>
             </div>
 
-            <div className="divider pt-9"></div> 
+            {/* <div className="divider pt-9"></div>  */}
 
                {/* services */}
         <h2 className='text-center pt-10 text-5xl landingH2'>SERVICES</h2>
@@ -83,7 +83,6 @@ function Landing(){
     </div>
 
 
-  <div className="divider pt-9"></div> 
 {/* skills */}
 <h2 className='landing-skills text-center pt-10 text-5xl landingH2'>SKILLS</h2>
   <div className='resume-skills flex flex-wrap justify-center p-8 space-x-4 '>
@@ -125,7 +124,6 @@ function Landing(){
     </div>
 
     </div>
-    <div className="divider pt-9"></div> 
                 <div>
                 <div className="card w-auto	 bg-[#29243c78] text-neutral-content p-14 ">
                     <div className="card-body items-center text-center text-white">
