@@ -38,7 +38,17 @@
     src: url(../../assests/fonts/SvargeRegular-lgaLe.ttf);
 }
 
+@font-face {
+    font-family: uou;
+    src: url(../../assests/fonts/TrajanPro-Regular.ttf);
+}
+
 .resHeaders {
     font-family: varg;
     font-weight: bold;
 }
+
+.uou {
+    font-family: uou;
+}
+

@@ -22,7 +22,7 @@ function Resume() {
             <div className=" card lg:card-side w-10/12 p-5 glass">
             <figure><img src={Badge} alt="Album"/></figure>
             <div className="card-body justify-around ">
-                <h2 className="signature card-title text-5xl">University of Utah </h2>
+                <h2 className="uou card-title text-5xl">University of Utah </h2>
                 <div className='card-text'>
                 <p className='min-w-fit'>Full-stack web developer based out of Salt Lake City, Utah. Graduated from The University of Utah. Here to provide everything you will need for your perfect website and tutoring for computer science students of all ages interested in programming. </p>
                 </div>
@@ -36,7 +36,7 @@ function Resume() {
             </div>
 
 
-<h2 className='resHeaders landing-skills text-center pt-10 text-5xl	text-white'>SKILLS</h2>
+{/* <h2 className='resHeaders landing-skills text-center pt-10 text-5xl	text-white'>SKILLS</h2>
   <div className='resume-skills flex flex-wrap justify-center p-8 space-x-4 '>
     <div data-aos="fade-right" className="card w-96 bg-neutral ">
       <div className="card-body items-center text-center glass">
@@ -93,7 +93,11 @@ function Resume() {
       </div>
     </div>
 
-    </div>
+    </div> */}
+
+
+
+
 
     {/* <div className="flex flex-wrap justify-center">
         <div download="resume.22.pdf" className="button-36 btn">
@@ -103,7 +107,7 @@ function Resume() {
     </div> */}
 
 {/* button test */}
-    <div download="resume.22.pdf" className="flex items-center justify-center ">
+    <div download="resume.22.pdf" className="flex items-center justify-center pt-10 ">
         <label className="w-64 flex flex-col items-center py-6 glass text-blue rounded-lg shadow-lg tracking-wide uppercase border border-blue cursor-pointer hover:bg-primary hover:text-white">
             <svg className="w-8" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
                 <path d="M16.88 9.1A4 4 0 0 1 16 17H5a5 5 0 0 1-1-9.9V7a3 3 0 0 1 4.52-2.59A4.98 4.98 0 0 1 17 8c0 .38-.04.74-.12 1.1zM11 11h3l-4-4-4 4h3v3h2v-3z" />
