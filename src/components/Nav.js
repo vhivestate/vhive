@@ -19,7 +19,7 @@ function Nav(props){
                     {/* <li><a><Link to={'/services'}>Services</Link></a></li> */}
             </ul>
             </div>
-            <a className="logo btn btn-ghost normal-case text-xl"> <Link to={'/'}>vhive</Link></a>
+            <a className="logo btn btn-ghost normal-case text-3xl"> <Link to={'/'}>vhive</Link></a>
         </div>
         <div className="navbar-end hidden lg:flex">
             <ul className="menu menu-horizontal p-0">
