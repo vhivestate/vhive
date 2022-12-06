@@ -24,7 +24,13 @@ function Resume() {
             <div className="card-body justify-around ">
                 <h2 className="uou card-title text-5xl">University of Utah </h2>
                 <div className='card-text'>
-                <p className='min-w-fit'>Full-stack web developer based out of Salt Lake City, Utah. Graduated from The University of Utah. Here to provide everything you will need for your perfect website and tutoring for computer science students of all ages interested in programming. </p>
+                <p className='min-w-fit'>Obtained my coding certification from The University of Utah where I learned specialized skills in full-stack development. </p>
+                </div>
+                <div className='card-text'>
+                <p className='min-w-fit'>Frontend: HTML, CSS, React.js, JavaScript</p>
+                </div>
+                <div className='card-text'>
+                <p className='min-w-fit'>Backend: Node.js, Mongo.DB, Express.js, Python</p>
                 </div>
                 <div className='flex flex-wrap p-3 justify-center'>
                 <button className="btn-wide nav-a btn btn-primary">
