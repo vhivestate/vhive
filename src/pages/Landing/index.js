@@ -37,10 +37,15 @@ function Landing(){
                 <div className='card-text'>
                 <p className='min-w-fit'>Full-stack web developer based out of Salt Lake City, Utah. Graduated from The University of Utah. Here to provide everything you will need for your perfect website and tutoring for computer science students of all ages interested in programming. </p>
                 </div>
-                <div className='flex flex-wrap p-3 justify-center'>
-                <button className="about-btn btn btn-primary btn-wide text-white"><Link to={'/projects'}>View Work</Link></button>  
-                <button className="about-btn btn btn-primary btn-wide text-white"><Link to={'/services'}>Services</Link></button>  
-
+                <div className='flex flex-wrap p-3 justify-around'>
+                    <div className='pt-3'>
+                        <button className="about-btn btn btn-primary btn-wide text-white"><Link to={'/projects'}>View Work</Link>
+                        </button> 
+                    </div> 
+                    <div className='pt-3'>
+                        <button className="about-btn btn btn-primary btn-wide text-white"><Link to={'/services'}>Services</Link>
+                        </button>  
+                    </div>
                     </div>
                 </div>
             </div>
