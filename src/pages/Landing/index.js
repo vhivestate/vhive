@@ -39,6 +39,8 @@ function Landing(){
                 </div>
                 <div className='flex flex-wrap p-3 justify-center'>
                 <button className="about-btn btn btn-primary btn-wide text-white"><Link to={'/projects'}>View Work</Link></button>  
+                <button className="about-btn btn btn-primary btn-wide text-white"><Link to={'/services'}>Services</Link></button>  
+
                     </div>
                 </div>
             </div>
