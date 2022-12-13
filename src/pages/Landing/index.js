@@ -51,8 +51,6 @@ function Landing(){
             </div>
             </div>
 
-            {/* <div className="divider pt-9"></div>  */}
-
                {/* services */}
         {/* <h2 className='text-center pt-10 text-5xl landingH2'>SERVICES</h2>
         <div className='flex flex-wrap justify-center p-8 space-x-4 '>
