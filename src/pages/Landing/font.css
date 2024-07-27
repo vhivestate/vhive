@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
     font-family: geo;
     src: url(../../assests/fonts/GeomanistRegular.ttf);
 }
@@ -16,5 +16,5 @@
 .signature {
     font-family:sign;
     font-weight: lighter;
-    /* font-size: larger; */
-}
+    font-size: larger;
+} */

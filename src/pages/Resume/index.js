@@ -6,9 +6,11 @@ import './style.css'
 
 function Resume() {
   return (
-<div className='resume-page bg-[#0d051c]'>
-<div className="hero h-64" style={{ backgroundImage: `url("https://sat02pap005files.storage.live.com/y4mccQegH1llhIfqRKMdAXiRthJjyBcQ1H1eBSvib3C8Nx5u_C181cxK4SgIMiBjg8lZJw4ul0AR1ZxSLO-bWrWZ8WrFU3-_wVy1qA0K530m8otUr5vNpgZBdEzMG52cbqwhyDZqoo8js9ZCM8sLZntIjyjRzx9jcPb8HhDyqcQz-MiC4NhBT4g4JjRFMn_hfb1?width=1024&height=683&cropmode=none")` }}>
-      <div className="hero-overlay bg-opacity-60"></div>
+<div className='resume-page bg-[#000000]'>
+<div className="hero h-64" style={{ backgroundImage: `url("https://i.pinimg.com/564x/d1/05/76/d10576a714ddb8bc67fd14ad914ebe67.jpg")` }}>
+
+      <div className="hero"></div>
+    
       <div className="hero-content text-center text-white">
       <div>
         <h1 className='text-5xl font-bold text-white'>RESUME</h1>
@@ -124,7 +126,7 @@ function Resume() {
 
 
 <div>
-            <div className="card w-auto	 bg-[#0d051c] text-neutral-content p-14 ">
+            <div className="card w-auto	 bg-[#000000] text-neutral-content p-14 ">
                     <div className="card-body items-center text-center text-white">
                     <h2 className="card-title ">Want to hire me for your next project? </h2>
                     <p>Please contact me via email garcia.valeria001@outlook.com</p>
