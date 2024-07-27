@@ -1,11 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import '../../App.css'
-import Trim from '../../assests/images/trimdown.png'
-import Rolodex from '../../assests/images/rolodex.png'
-import Book from '../../assests/images/book-search.png'
-import Schedule from '../../assests/images/scheduler.png'
-import Note from '../../assests/images/notetaker.png'
+// import Trim from '../../assests/images/trimdown.png'
 
 function Projects(){
     return(
@@ -23,7 +19,7 @@ function Projects(){
     <div>
         <div data-aos="flip-right" className="card w-96 glass shadow-xl text-white">
         <figure className="px-10 pt-10">
-        <img src={Trim} alt="Shoes" className="rounded-xl" />
+        {/* <img src={Trim} alt="Shoes" className="rounded-xl" /> */}
         </figure>
         <div className="card-body items-center text-center">
         <h2 className="card-title the-u">Trim Down</h2>
@@ -40,7 +36,7 @@ function Projects(){
     <div className='pt-9'>
         <div data-aos="flip-left" className="card w-96 glass shadow-xl text-white">
         <figure className="px-10 pt-10">
-        <img src={Rolodex} alt="Shoes" className="rounded-xl" />
+        {/* <img src={Rolodex} alt="Shoes" className="rounded-xl" /> */}
         </figure>
         <div className="card-body items-center text-center">
         <h2 className="card-title the-u">Modern Rolodex</h2>
@@ -57,7 +53,7 @@ function Projects(){
     <div className='pt-9'>
         <div data-aos="flip-right" className="card w-96 glass shadow-xl text-white">
         <figure className="px-10 pt-10">
-        <img src={Book} alt="Shoes" className="rounded-xl" />
+        {/* <img src={Book} alt="Shoes" className="rounded-xl" /> */}
         </figure>
         <div className="card-body items-center text-center">
         <h2 className="card-title the-u">Book Finder</h2>
@@ -74,7 +70,7 @@ function Projects(){
     <div className='pt-9'>
         <div data-aos="flip-left" className="card w-96 glass shadow-xl text-white">
         <figure className="px-10 pt-10">
-        <img src={Schedule} alt="Shoes" className="rounded-xl" />
+        {/* <img src={Schedule} alt="Shoes" className="rounded-xl" /> */}
         </figure>
         <div className="card-body items-center text-center">
         <h2 className="card-title the-u"> Work Day Scheduler</h2>
@@ -91,7 +87,7 @@ function Projects(){
     <div className='pt-9 pb-9'>
         <div data-aos="flip-right" className="card w-96 glass shadow-xl text-white">
         <figure className="px-10 pt-10">
-        <img src={Note} alt="Shoes" className="rounded-xl" />
+        {/* <img src={Note} alt="Shoes" className="rounded-xl" /> */}
         </figure>
         <div className="card-body items-center text-center">
         <h2 className="card-title the-u">Express Note Taker</h2>
