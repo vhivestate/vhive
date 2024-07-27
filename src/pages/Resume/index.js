@@ -1,26 +1,18 @@
 import React from 'react'
 // import ResumePdf from '../../assests/files/resume.22.pdf'
-import Badge from '../../assests/images/badge-code.png'
+import Badge from '../../assets/images/badge-code.png'
 import { Link } from 'react-router-dom'
 import './style.css'
+import HeaderResume from '../../assets/images/resume-header.jpeg'
 
 function Resume() {
   return (
-<div className='resume-page bg-[#000000]'>
-<div className="hero h-64" style={{ backgroundImage: `url("https://i.pinimg.com/564x/d1/05/76/d10576a714ddb8bc67fd14ad914ebe67.jpg")` }}>
+<div className='min-h-screen bg-[#000000] flex flex-col items-center justify-center'>
+<div className="max-w mt-9 mx-auto bg-black">
+<figure className='pt-14'><img src={HeaderResume} alt="Album"/></figure>
 
-      <div className="hero"></div>
-    
-      <div className="hero-content text-center text-white">
-      <div>
-        <h1 className='text-5xl font-bold text-white'>RESUME</h1>
-      </div>
-      </div>
-    </div>
- 
-
-
-    <div data-aos="zoom-in" data-aos-duration="2000" className='about pt-14 flex flex-wrap justify-center'>
+</div>
+    <div className='pt-1 flex flex-wrap justify-center'>
             <div className=" card lg:card-side w-10/12 p-5 glass">
             <figure><img src={Badge} alt="Album"/></figure>
             <div className="card-body justify-around ">

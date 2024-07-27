@@ -1,25 +1,20 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import '../../App.css'
-// import Trim from '../../assests/images/trimdown.png'
+import HeaderPro from '../../assets/images/projects-header.jpeg'
 
 function Projects(){
     return(
-        <div className='bg-[#29243c78]'>
-<div className="hero h-64 bg-fixed" style={{ backgroundImage: `url("https://sat02pap005files.storage.live.com/y4mccQegH1llhIfqRKMdAXiRthJjyBcQ1H1eBSvib3C8Nx5u_C181cxK4SgIMiBjg8lZJw4ul0AR1ZxSLO-bWrWZ8WrFU3-_wVy1qA0K530m8otUr5vNpgZBdEzMG52cbqwhyDZqoo8js9ZCM8sLZntIjyjRzx9jcPb8HhDyqcQz-MiC4NhBT4g4JjRFMn_hfb1?width=1024&height=683&cropmode=none")` }}>
-            <div className="hero-overlay bg-opacity-60"></div>
-            <div className="hero-content text-center text-white">
-                <div className="max-w-md">
-                <h1 className="mb-5 text-5xl font-bold text-white">PROJECTS</h1>
-                </div>
-            </div>
-            </div>
+        <div className='bg-[#000000]'>
+        <div className="max-w mt-9 mx-auto bg-black">
+<figure className='pt-14' ><img src={HeaderPro} alt="Album"/></figure>
+
+</div>
 
             <div className='projects flex flex-wrap justify-around'>
     <div>
         <div data-aos="flip-right" className="card w-96 glass shadow-xl text-white">
         <figure className="px-10 pt-10">
-        {/* <img src={Trim} alt="Shoes" className="rounded-xl" /> */}
         </figure>
         <div className="card-body items-center text-center">
         <h2 className="card-title the-u">Trim Down</h2>

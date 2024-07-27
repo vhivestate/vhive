@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { validateEmail } from "../../utils/helper";
+import HeaderContact from '../../assets/images/contact-header.jpeg';
 
 export const Contact = () => {
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
@@ -51,8 +52,12 @@ export const Contact = () => {
     }
 
     return (
-        <div className="min-h-screen bg-[#29243c78] flex flex-col items-center justify-center">
-            <h1 className=" text-white text-center text-4xl">CONTACT</h1>
+        
+        <div className="min-h-screen bg-[#000000] flex flex-col items-center justify-center">
+        <figure className=''><img src={HeaderContact} alt="Album"/></figure>
+
+        <div className=" bg-white">
+</div>
             <div className="w-full py-6 md:w-4/6 my-6">
                 <form onSubmit={handleSubmit}>
                 <input type="hidden" name="_captcha" value="false"/>

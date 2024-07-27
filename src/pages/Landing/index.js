@@ -30,7 +30,7 @@ function Landing(){
 
     {/* ABOUT */}
 
-            <div className='bg-[#00000078] text-white '>
+            <div className='bg-[#000000] text-white '>
             <div className='about pt-14 flex flex-wrap justify-center'>
             <div className=" card w-10/12 p-5 glass">
             {/* <figure className='' id='about'><img src={Headshot} alt="Album"/></figure> */}
