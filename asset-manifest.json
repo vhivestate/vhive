@@ -1,28 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.c29900e1.css",
-    "main.js": "/static/js/main.cd1625b7.js",
+    "main.css": "/static/css/main.ec917822.css",
+    "main.js": "/static/js/main.d9577fe1.js",
     "static/js/787.d564680c.chunk.js": "/static/js/787.d564680c.chunk.js",
     "static/media/TrajanPro-Regular.ttf": "/static/media/TrajanPro-Regular.5e3d3ff4f80f0875f849.ttf",
-    "static/media/rolodex.png": "/static/media/rolodex.0bf2545616e21e7b40d3.png",
-    "static/media/book-search.png": "/static/media/book-search.b276e6d9f8b9ee20e03b.png",
-    "static/media/scheduler.png": "/static/media/scheduler.2bd0a07ae8ca741c3701.png",
     "static/media/headshot.png": "/static/media/headshot.00255ec980b7d0ae45b1.png",
-    "static/media/trimdown.png": "/static/media/trimdown.0bf87e5d2348c5bdd2ee.png",
-    "static/media/resume.22.pdf": "/static/media/resume.22.3624bfd7530048c9f3b5.pdf",
     "static/media/SvargeRegular-lgaLe.ttf": "/static/media/SvargeRegular-lgaLe.c3eafe677b0e0d8bb1f0.ttf",
     "static/media/Yustine Signature.otf": "/static/media/Yustine Signature.71471299020db2171c8d.otf",
-    "static/media/notetaker.png": "/static/media/notetaker.fa1a97f4dd81aaa1c40e.png",
     "static/media/GeomanistRegular.ttf": "/static/media/GeomanistRegular.a00c8fa55da97d984349.ttf",
     "static/media/gaia-trial.ttf": "/static/media/gaia-trial.a707f5c9038308aa3c03.ttf",
     "static/media/badge-code.png": "/static/media/badge-code.08ec3e6940b5c5f5695e.png",
     "index.html": "/index.html",
-    "main.c29900e1.css.map": "/static/css/main.c29900e1.css.map",
-    "main.cd1625b7.js.map": "/static/js/main.cd1625b7.js.map",
+    "main.ec917822.css.map": "/static/css/main.ec917822.css.map",
+    "main.d9577fe1.js.map": "/static/js/main.d9577fe1.js.map",
     "787.d564680c.chunk.js.map": "/static/js/787.d564680c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c29900e1.css",
-    "static/js/main.cd1625b7.js"
+    "static/css/main.ec917822.css",
+    "static/js/main.d9577fe1.js"
   ]
 }
