@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
+  padding-top: 60px; /* Adjust this value based on the height of your navbar */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -32,4 +33,27 @@ code {
 
 .card-actions {
   @apply justify-center mt-4;
+}
+
+/* Ensure the main container accounts for the navbar height */
+.min-h-screen {
+  min-height: calc(100vh - 60px); /* Adjust this value based on the height of your navbar */
+}
+
+/* Navbar styles, if not already defined */
+.navbar {
+  @apply fixed top-0 w-full z-50;
+}
+
+/* Responsive layout for glass card */
+.glass-card {
+  @apply flex flex-col md:flex-row items-center;
+}
+
+.glass-card img {
+  @apply w-full md:w-1/3 rounded-lg;
+}
+
+.glass-card div {
+  @apply mt-4 md:mt-0 md:ml-5;
 }
