@@ -1,7 +1,7 @@
 import React from 'react'
 // import ResumePdf from '../../assests/files/resume.22.pdf'
 import Badge from '../../assets/images/badge-code.png'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 import './style.css'
 import HeaderResume from '../../assets/images/resume-header.jpeg'
 
@@ -117,17 +117,7 @@ function Resume() {
     </div>
 
 
-<div>
-            <div className="card w-auto	 bg-[#000000] text-neutral-content p-14 ">
-                    <div className="card-body items-center text-center text-white">
-                    <h2 className="card-title ">Want to hire me for your next project? </h2>
-                    <p>Please contact me via email garcia.valeria001@outlook.com</p>
-                    <div className="card-actions justify-end">
-                        <button className="btn btn-primary  text-white"><Link to={'/contact'}>Contact</Link></button>
-                    </div>
-                    </div>
-                </div>
-            </div>
+
 
     </div>
   )

@@ -1,6 +1,6 @@
 import React from 'react'
 import '../../App.css'
-// import Headshot from '../../assests/images/hero.JPG'
+import Headshot from '../../assets/images/hero.JPG'
 import { Link } from 'react-router-dom';
 import { ArrowDownCircle } from 'react-feather';
 import './font.css'
@@ -30,10 +30,10 @@ function Landing(){
 
     {/* ABOUT */}
 
-            <div className='bg-[#000000] text-white '>
-            <div className='about pt-14 flex flex-wrap justify-center'>
+            <div className='bg-[#000000] text-white w-full max-w-96 '>
+            <div className='pt-14 flex flex-wrap justify-center'>
             <div className=" card w-10/12 p-5 glass">
-            {/* <figure className='' id='about'><img src={Headshot} alt="Album"/></figure> */}
+            <figure className='max-w-50' id='about'><img src={Headshot} alt="Album"/></figure>
             <div className="card-body justify-around ">
                 <h2 className="signature card-title text-5xl">Valeria Garcia</h2>
                 <h3>UX/UI Designer</h3>
@@ -42,8 +42,11 @@ function Landing(){
                 </div>
                 <div className='flex flex-wrap p-3 justify-around'>
                     <div className='pt-3'>
-                        <button className="about-btn btn btn-primary btn-wide text-white"><Link to={'/about'}>ABOUT</Link>
+                    <a href='../About'>  
+                    <button className="about-btn btn btn-primary btn-wide text-white"><Link to={'/about'}>ABOUT</Link>
                         </button> 
+                        </a>
+                      
                     </div> 
                     {/* <div className='pt-3'>
                         <button className="about-btn btn btn-primary btn-wide text-white"><Link to={'/services'}>Services</Link>
@@ -55,17 +58,8 @@ function Landing(){
             </div>
 
 
-                <div>
-                <div className="card w-auto	 bg-[#00000028] text-neutral-content p-14 ">
-                    <div className="card-body items-center text-center text-white">
-                    <h2 className="card-title ">Want to hire me for your next project? </h2>
-                    <p>Please contact me via email garcia.valeria001@outlook.com</p>
-                    <div className="card-actions justify-end">
-                        <button className="btn btn-primary  text-white"><Link to={'/contact'}>Contact</Link></button>
-                    </div>
-                    </div>
-                </div>
-            </div>
+
+
           </div>
         </div>
     )
