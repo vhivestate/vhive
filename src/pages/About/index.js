@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../App.css';
-// import '../../main.scss';
+import '../../main.scss';
 import Label from '../../assets/images/about-header.jpeg';
 import drink1 from '../../assets/images/drink1.jpeg';
 import drink2 from '../../assets/images/drink2.jpeg';
