@@ -48,5 +48,11 @@ code {
 }
 
 
-
+/* Custom styles for neon yellow button */
+.btn-primary {
+    @apply bg-violet-900 text-white; /* Neon yellow with black text */
+  }
   
+  .btn-primary:hover {
+    @apply bg-violet-200; /* Lighter yellow on hover */
+  }

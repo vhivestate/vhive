@@ -56,8 +56,6 @@ export const Contact = () => {
         <div className="min-h-screen bg-[#000000] flex flex-col items-center justify-center">
         <figure className=''><img src={HeaderContact} alt="Album"/></figure>
 
-        <div className=" bg-white">
-</div>
             <div className="w-full py-6 md:w-4/6 my-6">
                 <form onSubmit={handleSubmit}>
                 <input type="hidden" name="_captcha" value="false"/>

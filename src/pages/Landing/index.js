@@ -2,7 +2,7 @@ import React from 'react';
 import '../../App.css';
 import '../../main.scss';
 import Headshot from '../../assets/images/hero.JPG';
-import ContactSection from '../../assets/images/building.jpeg';
+import Project from '../../assets/images/landing-card.jpeg';
 import { Link } from 'react-router-dom';
 import { ArrowDownCircle } from 'react-feather';
 import './font.css';
@@ -52,17 +52,18 @@ function Landing() {
 
                     {/* New Glass Card with Carousel */}
                     <div className="card w-full lg:w-1/2 p-5 glass lg:mb-0">
-                        <figure className='max-w-50' id='about'>
-                            {/* <img src={Headshot} alt="Album" /> */}
-                        </figure>
                         <div className="card-body flex flex-col items-center justify-around">
-                            <h2 className="signature card-title text-5xl">Valeria Garcia</h2>
-                            <h3>UX/UI Designer</h3>
                             <div className='card-text'>
-                                <p className='min-w-fit'> College student at Weber State University majoring in Web and User Experience. Combining my love for art and technology, I focus on creating designs that are not just pretty but also user-friendly. </p>
+                                <h2 className=' card-title min-w-fit text-2xl'> Explore my work across web design, programming, and artistic endeavors. </h2>
                             </div>
+
+
+
+                            <figure className='max-w-50' id='about'>
+                            <img src={Project} alt="Album" />
+                        </figure>
                             <div className='pt-3'>
-                                <a href='../About'>
+                                <a href='../Projects'>
                                     <button className="about-btn btn btn-primary btn-wide text-white"><Link to={'/projects'}>Projects</Link>
                                     </button>
                                 </a>
@@ -70,21 +71,6 @@ function Landing() {
                         </div>
                     </div>
                 </div>
-
-                {/* Contact Card Underneath */}
-                {/* <div className='w-full flex flex-col items-center mt-8'>
-                    <div className="card w-10/12 p-5 glass" style={{ backgroundImage: `url(${ContactSection})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
-                        <div className="card-body flex flex-col items-center justify-around">
-                            <h2 className="card-title text-3xl">Have any inquires?</h2>
-                            <p className="text-center">Feel free to reach out</p>
-                            <div className="card-actions justify-center mt-4">
-                                <button className="btn btn-primary">
-                                    <Link to={'/contact'}>CONTACT</Link>
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div> */}
             </div>
         </div>
     );
