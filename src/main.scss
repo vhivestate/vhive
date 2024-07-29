@@ -23,17 +23,6 @@ code {
   object-fit: cover;
 }
 
-.card {
-  @apply p-5 glass flex flex-col items-center;
-}
-
-.card-body {
-  @apply flex flex-col items-center justify-around;
-}
-
-.card-actions {
-  @apply justify-center mt-4;
-}
 
 /* Ensure the main container accounts for the navbar height */
 .min-h-screen {
@@ -57,3 +46,7 @@ code {
 .glass-card div {
   @apply mt-4 md:mt-0 md:ml-5;
 }
+
+
+
+  

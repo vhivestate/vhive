@@ -2,19 +2,19 @@ import React from 'react';
 import '../../App.css';
 import '../../main.scss';
 import Label from '../../assets/images/about-header.jpeg';
-import drink1 from '../../assets/images/drink1.jpeg';
-import drink2 from '../../assets/images/drink2.jpeg';
-import drink3 from '../../assets/images/drink3.jpeg';
+import Art from '../../assets/images/art.JPG';
+import Flash from '../../assets/images/flash.JPG';
 import AboutImg from '../../assets/images/about.jpg';
+import { Link } from 'react-router-dom';
 
 const About = () => {
     return (
         <div className="min-h-screen bg-[#000000] flex flex-col items-center justify-center">
             <figure className='' id='about'>
-                <img src={Label} alt="Album" />
+                <img src={Label} alt="About word in ascii" />
             </figure>
 
-            {/* New Glass Card Section */}
+            {/* Card Section */}
             <div className="pt-1 flex flex-wrap justify-center">
                 <div className="glass-card flex w-10/12 p-5 bg-black mb-10">
                     <img className="w-1/3 rounded-lg" src={AboutImg} alt="AboutImage" />
@@ -41,30 +41,25 @@ const About = () => {
             </div>
 
             {/* Existing Glass Card with Carousel */}
-            <div className='pt-14 flex flex-wrap justify-center'>
-                <div className="card w-10/12 p-5 glass">
+
                     <figure className='max-w-50'>
                         <div className="carousel carousel-end rounded-box">
                             <div className="carousel-item">
-                                <img className="carousel-img" src={drink1} alt="Drink 1" />
+                                <img className="carousel-img" src={Art} alt="Art" />
                             </div>
                             <div className="carousel-item">
-                                <img className="carousel-img" src={drink2} alt="Drink 2" />
-                            </div>
-                            <div className="carousel-item">
-                                <img className="carousel-img" src={drink3} alt="Drink 3" />
+                                <img className="carousel-img" src={Flash} alt="Tattoo Flash" />
                             </div>
                         </div>
                     </figure>
+
                     <div className="card-body justify-around">
-                        <h2 className="card-title">Carousel Example</h2>
-                        <p>This is a glass card with a carousel inside.</p>
+                        {/* <h2 className="card-title">Carousel Example</h2> */}
                         <div className="card-actions justify-end">
-                            <button className="btn btn-primary">Explore more!</button>
+                            <button className="btn btn-primary"><Link to={'/projects'}>VIEW PROJECTS</Link></button>
                         </div>
                     </div>
-                </div>
-            </div>
+
         </div>
     );
 };
